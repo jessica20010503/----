@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  max-width: 1920px;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+/*768: Pad尺寸*/
+/*767: 手機尺寸*/
+@media (max-width: 767px) {
+  .container {
+    width: 75%;
+  }
+}
+.red-h2 {
+  color: #A00404;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+}
+@media (max-width: 767px) {
+  .red-h2 {
+    font-size: 20px;
+    white-space: pre;
+    /*保留原始資料的空白與換行*/
+  }
+}
+
+.sm-h2 {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+}
+@media (max-width: 767px) {
+  .sm-h2 {
+    font-size: 20px;
+    white-space: pre;
+    /*保留原始資料的空白與換行*/
+  }
+}
+
+.personal h2 {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 80px;
+  line-height: 106px;
+  color: #000000;
+  padding-top: 37px;
+  border-bottom: #000000 2px solid;
+}
+@media (max-width: 767px) {
+  .personal h2 {
+    font-size: 77px;
+  }
+}
+.personal img {
+  margin: 48px 0;
+}
+@media (max-width: 376px) {
+  .personal img {
+    width: 100%;
+    /*照片尺寸過大，針對解析度較小的去做調整*/
+  }
+}
+
+.profile h2 {
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: bold;
+  color: #000;
+  font-family: sans-serif;
+  border-bottom: 1px solid #808080;
+}
+@media (max-width: 767px) {
+  .profile h2 {
+    font-size: 28px;
+  }
+}
+.profile p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #000;
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .profile p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .profile p {
+    font-size: 20px;
+  }
+}
+
+.education h2 {
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: bold;
+  color: #000;
+  font-family: sans-serif;
+  border-bottom: 1px solid #808080;
+  margin-top: 72px;
+}
+@media (max-width: 767px) {
+  .education h2 {
+    font-size: 28px;
+  }
+}
+.education p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #000;
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .education p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .education p {
+    font-size: 20px;
+  }
+}
+
+.skills {
+  background-color: #415165;
+  margin-top: 72px;
+  color: #fff;
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+.skills h2 {
+  font-size: 32px;
+  line-height: 45px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 8px;
+  margin-bottom: 37px;
+  text-align: center;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .skills h2 {
+    font-size: 28px;
+  }
+}
+.skills ul {
+  border-left: 1px solid #96a9c4;
+  padding-left: 24px;
+  margin: 0 auto;
+  max-width: 192px;
+  font-size: 24px;
+  line-height: 36px;
+}
+@media (max-width: 767px) {
+  .skills ul {
+    font-size: 20px;
+  }
+}
+
+.exprience h2 {
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: bold;
+  color: #000;
+  font-family: sans-serif;
+  border-bottom: 1px solid #808080;
+  margin-top: 72px;
+}
+@media (max-width: 767px) {
+  .exprience h2 {
+    font-size: 28px;
+    word-wrap: break-word;
+  }
+}
+.exprience ul {
+  color: #000000;
+  font-weight: bold;
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+@media (max-width: 767px) {
+  .exprience ul {
+    margin-left: 15px;
+    padding-left: 18px;
+  }
+}
+.exprience ul h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .exprience ul h3 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .exprience ul h3 {
+    font-size: 18px;
+  }
+}
+.exprience ul p {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 642px;
+}
+@media (max-width: 768px) {
+  .exprience ul p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .exprience ul p {
+    font-size: 14px;
+  }
+}
+.exprience ul img {
+  padding: 8px 0;
+}
+
+.footer {
+  background-color: #415165;
+  background-color: #415165;
+  margin-top: 72px;
+  color: #fff;
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+.footer .text h2 {
+  font-size: 32px;
+  line-height: 45px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 8px;
+  margin-bottom: 37px;
+  text-align: center;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .footer .text h2 {
+    font-size: 28px;
+    word-wrap: break-word;
+  }
+}
+.footer .text ul {
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media (max-width: 767px) {
+  .footer .text ul {
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+.footer .text ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .footer .text ul li a {
+    word-wrap: break-word;
+  }
+}
+.footer .text ul li a:hover {
+  color: #BEBEBE;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.footer .footer_icon {
+  margin-top: 16px;
+  text-align: center;
+}
+.footer .footer_icon a {
+  font-size: 48px;
+  margin-right: 24px;
+  color: #fff;
+}
+.footer .footer_icon a:hover {
+  color: #66B3FF;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.top {
+  position: fixed;
+  bottom: 3.5%;
+  right: 3.5%;
+  z-index: 90;
+}
+.top .fa-arrow-up {
+  background-color: lightcoral;
+  opacity: 0.6;
+  color: #fff;
+  border-radius: 15px 15px;
+  font-size: 40px;
+  padding: 10px;
+}
+@media (max-width: 767px) {
+  .top .fa-arrow-up {
+    font-size: 30px;
+    right: 1.5%;
+  }
+}
+.top .fa-arrow-up:hover {
+  background-color: lightskyblue;
+}
+.top .fa-arrow-up:active {
+  background-color: #29a1ec;
+}

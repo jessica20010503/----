@@ -1,0 +1,305 @@
+@import 'reset';
+
+.wrap{
+    max-width: 1920px;
+ 
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+   
+}
+/*768: Pad尺寸*/
+/*767: 手機尺寸*/
+@media (max-width:767px) {
+    .container{
+        width: 75%;
+    }
+}
+
+
+.red-h2{
+    color: #A00404;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 16px;
+    @media (max-width:767px) {
+        font-size: 20px;
+        white-space:pre;/*保留原始資料的空白與換行*/
+   }
+}
+.sm-h2{
+    color: #fff;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 16px;
+    @media (max-width:767px) {
+         font-size: 20px;
+         white-space:pre;/*保留原始資料的空白與換行*/
+    }
+}
+
+.personal{
+   
+    h2{
+        text-align: left;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 80px;
+        line-height: 106px;
+        color: #000000;
+        padding-top: 37px;
+        border-bottom: #000000 2px solid;
+        @media (max-width:767px) {
+            font-size: 77px;
+        }
+    }
+    img{
+        margin: 48px 0; 
+        @media (max-width:376px) {
+            width: 100%;
+            /*照片尺寸過大，針對解析度較小的去做調整*/
+        }
+       
+    }
+}
+
+
+.profile{
+    h2{
+        font-size: 32px;
+        line-height: 43px;
+        font-weight: bold;
+        color: #000;
+        font-family:sans-serif;
+        border-bottom: 1px solid #808080;
+        @media (max-width:767px) {
+            font-size: 28px;
+            
+       }
+    }
+    p{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+        font-family:sans-serif;
+        color: #000;
+        margin-top: 24px;
+        @media (max-width:768px) {
+            font-size: 22px;
+       }
+        @media (max-width:767px) {
+            font-size: 20px;
+       }
+    }
+}
+.education{
+    h2{
+        font-size: 32px;
+        line-height: 43px;
+        font-weight: bold;
+        color: #000;
+        font-family:sans-serif;
+        border-bottom: 1px solid #808080;
+        margin-top: 72px;
+        @media (max-width:767px) {
+            font-size: 28px;
+       }
+    }
+    p{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+        font-family:sans-serif; 
+        color: #000;
+        margin-top: 24px;
+        @media (max-width:768px) {
+            font-size: 22px;
+       }
+        @media (max-width:767px) {
+            font-size: 20px;
+           
+       }
+    }
+}
+.skills{
+    background-color: #415165;
+    margin-top: 72px;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    h2{
+        font-size: 32px;
+        line-height: 45px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 8px;
+        margin-bottom: 37px;
+        text-align: center;
+        font-weight: bold;
+        @media (max-width:767px) {
+            font-size: 28px;
+       }
+    }
+    ul{
+        border-left: 1px solid #96a9c4;
+        padding-left: 24px;
+        margin: 0 auto;
+        max-width: 192px;
+        font-size: 24px;
+        line-height: 36px;
+        
+        @media (max-width:767px) {
+            font-size: 20px;
+       }
+    }
+   
+}
+.exprience{
+    h2{
+        font-size: 32px;
+        line-height: 43px;
+        font-weight: bold;
+        color: #000;
+        font-family:sans-serif;
+        border-bottom: 1px solid #808080;
+        margin-top: 72px;
+
+        @media (max-width:767px) {
+            font-size: 28px;
+            word-wrap: break-word;
+       }
+    }
+    ul{
+        color: #000000;
+        font-weight: bold;
+        border-left: 1px solid #96A9C4;
+        padding-left: 24px;
+        margin-left: 24px;
+        @media (max-width:767px) {
+            margin-left: 15px;
+            padding-left: 18px
+       }
+        h3{
+            font-size: 24px;
+            line-height: 36px;
+            margin-top: 24px;
+            @media (max-width:768px) {
+                font-size: 21px;
+           }
+            @media (max-width:767px) {
+                font-size: 18px;
+           }
+        }
+        p{
+            font-size: 20px;
+            line-height: 30px;
+            max-width: 642px;
+            @media (max-width:768px) {
+                font-size: 17px;
+           }
+            @media (max-width:767px) {
+                font-size: 14px;
+           }
+        }
+        img{
+            padding: 8px 0;
+        } 
+    }
+}
+.footer{
+    background-color: #415165;background-color: #415165;
+    margin-top: 72px;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    
+    .text{
+        h2{
+            font-size: 32px;
+            line-height: 45px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 8px;
+            margin-bottom: 37px;
+            text-align: center;
+            font-weight: bold;
+            @media (max-width:767px) {
+                font-size: 28px;
+                word-wrap: break-word;
+           }
+        }
+        ul{
+            text-align: center;
+            font-size: 24px;
+            line-height: 36px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            @media (max-width:767px) {
+                font-size: 16px;
+                padding-right: 5px;
+                padding-left: 5px;
+                      
+            }
+            li{
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    @media (max-width:767px) {
+                        word-wrap: break-word;
+                              
+                    }
+                }
+                a:hover{
+                    color: 	#BEBEBE;
+                    text-shadow: 0.1em 0.1em 0.2em black
+                }
+                
+            }
+            
+        }
+    }
+    .footer_icon{
+        margin-top: 16px;
+        text-align: center;
+        
+        a{
+            font-size: 48px;
+            margin-right: 24px;
+            color: #fff;
+        }
+        a:hover{
+            color:#66B3FF;
+            text-shadow: 0.1em 0.1em 0.2em black
+        }
+    }
+
+}
+
+
+.top{
+	position: fixed;
+    bottom: 3.5%;
+    right: 3.5%;
+    z-index: 90;
+    .fa-arrow-up{
+        background-color:lightcoral;
+        opacity: 0.6;
+        color: #fff;
+        border-radius: 15px 15px;
+        font-size: 40px;
+        padding: 10px;
+        @media (max-width:767px) {
+            font-size: 30px;
+            right: 1.5%;
+       }
+    }
+    .fa-arrow-up:hover{
+        background-color:lightskyblue;
+    }
+    .fa-arrow-up:active{
+        background-color:rgb(41, 161, 236);
+    }
+}
+
+
+
